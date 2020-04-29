@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calculadora.css">
+    <script src="src/calculadora.js"></script>    
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="resultado" />
+
+        <button id="nove" onclick="preencher(9);">9</button>
+        <button id="oito" onclick="preencher(8);">8</button>
+        <button id="sete" onclick="preencher(7);">7</button>
+        <button id="operacao somar" onclick="preencher('+');">+</button>
+        
+        <button id="seis" onclick="preencher(6);">6</button>
+        <button id="cinco" onclick="preencher(5);">5</button>
+        <button id="quatro" onclick="preencher(4);">4</button>
+        <button id="operacao subtrair" onclick="preencher('-');">-</button>
+        
+        <button id="tres" onclick="preencher(3);">3</button>
+        <button id="dois" onclick="preencher(2);">2</button>
+        <button id="um" onclick="preencher(1);">1</button>
+        <button id="operacao multiplicar" onclick="preencher('*');">*</button>
+        
+        <button id="zero" onclick="preencher(0);">0</button>
+        <button id="ponto" onclick="preencher('.');">.</button>
+        <button id="resultar" onclick="calcular();">=</button>
+        <button id="operacao dividir" onclick="preencher('/');">/</button>
+    </div>
+</body>
+</html>
